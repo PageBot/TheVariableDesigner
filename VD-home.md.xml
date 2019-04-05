@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document><pre><code>doc.title = 'The&amp;nbsp;Variable&amp;nbsp;Designer'
+
+# Page (Home)
+#&lt;tab/&gt;Wrapper
+#&lt;tab/&gt;&lt;tab/&gt;Header 
+#&lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;Logo (+BurgerButton)
+#&lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;Navigation/TopMenu/MenuItem(s)
+#      Content
+#  &lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;Banner
+#  &lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;SlideShow (on Home)
+#      &lt;tab/&gt;&lt;tab/&gt;Slides
+#      &lt;tab/&gt;&lt;tab/&gt;SlideSide
+#&lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;Section(s)
+#&lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;Introduction
+#&lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;Main
+#&lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;Mains
+#&lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;Main
+#&lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;Side
+#&lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;Sides
+#&lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;&lt;tab/&gt;Side
+#&lt;tab/&gt;&lt;tab/&gt;Footer
+#
+# ----------------------------------------
+# index.html
+# ----------------------------------------
+page.name = 'Home'
+page.url = 'index.html'
+content = page.select('Content')
+box = content.newBanner()
+</code></pre>
+
+<h1>Practical guide for Variable Font design strategies.</h1>
+<pre><code>box = content.newIntroduction()
+</code></pre>
+
+<h1>Cases, best practices, opinions and optical size.</h1>
+<pre><code>section = content.newSection()
+box = section.newMain()
+# TODO: Make automatic SiteMap Element, generating the linked list below
+</code></pre>
+
+<h1>Design paths for Variable Fonts</h1>
+<h2>Traditional</h2>
+<ul>
+<li><a href="design_space-2-masters-1-axis.html">“Simple” 2 masters 1 axis</a></li>
+<li><a href="design_space-3-masters-1-axis.html">“Simple” 3 masters 1 axis</a></li>
+<li><a href="design_space-4-masters-2-axis.html">4 masters 2 axes</a></li>
+<li><a href="design_space-5-masters-2-axis.html">5 masters 2 axes</a></li>
+<li><a href="design_space-9-masters-2-axis.html">9 masters 2 axes</a></li>
+<li>8 masters 3 axes (Traditional Multiple Master)</li>
+<li>27-masters-3-axes (How not to do it)</li>
+<li>16 masters 4 axes (Traditional Multiple Master)</li>
+<li>Unstructured set of existing masters as start</li>
+</ul>
+<h2>Variable Fonts</h2>
+<ul>
+<li>Super-in-position</li>
+<li>Supporting masters</li>
+<li><a href="design_space-parametric-axes.html">Parametric axes</a></li>
+<li><a href="design_space-catalog-axes.html">Catalog axes</a></li>
+<li>Axes by hierarchy</li>
+<li>Independent axes</li>
+<li>Delta-absorbers</li>
+<li>Inline-axis masters</li>
+<li>OT-feature spaces</li>
+<li>Extrapolated axes</li>
+</ul>
+<h1>Topology of the design space</h1>
+<h2>Axes</h2>
+<h2>Types of masters</h2>
+<h2>Estimating the volume of work</h2>
+<h1>Process</h1>
+<h2>Sketching the design space</h2>
+<h2>Exploding dimensions</h2>
+<h2>Keep it small, test modular, hide unused axes</h2>
+<h2>MutatorMath vs. Fonttools interpolation</h2>
+<h2>Managing inflections points</h2>
+<h2>Instances</h2>
+<h2>Features</h2>
+<h2>Spacing, groups and kerning</h2>
+<h2>Scripting production</h2>
+<h2>Do’s and don’ts</h2>
+<h1>Tools</h1>
+<h2>Skateboard</h2>
+<h2>Fonttools</h2>
+<h1>Contact</h1></document>

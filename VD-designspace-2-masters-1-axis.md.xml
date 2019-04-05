@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document><pre><code># ----------------------------------------
+# designspace.html
+# ----------------------------------------
+page = page.next
+page.applyTemplate(template)  
+page.name = '2 masters 1 axis'
+page.url = 'Design space/2-masters-1-axis.html'
+content = page.select('Content')
+box = content.newBanner()
+</code></pre>
+
+<h1>3 masters, 1 axis</h1>
+<pre><code>box = content.newIntroduction()
+</code></pre>
+
+<h1>Skateboard. RoboFont. Fonttools. Scripts. Code.</h1>
+<pre><code>section = content.newSection()
+box = section.newMain()
+</code></pre>
+
+<h2>Usage examples</h2>
+<h3>Single weight<sup>wght</sup> axis with Regular-Bold</h3>
+<h3>Single weight<sup>wght</sup> axis with Light-Regular</h3>
+<h3>Single optical size<sup>opsz</sup> axis with 2 masters</h3></document>

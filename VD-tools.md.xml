@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document><pre><code># ----------------------------------------
+# tools.html
+# ----------------------------------------
+page = page.next
+page.applyTemplate(template)  
+page.name = 'Tools'
+page.url = 'tools.html'
+content = page.select('Content')
+box = content.newBanner()
+</code></pre>
+
+<h1>Variable design strategy: The Tools</h1>
+<pre><code>box = content.newIntroduction()
+</code></pre>
+
+<h1>Skateboard. RoboFont. Fonttools. Scripts. Code.</h1>
+<pre><code>section = content.newSection()
+box = section.newMain()
+</code></pre>
+
+<h1>Skateboard</h1></document>

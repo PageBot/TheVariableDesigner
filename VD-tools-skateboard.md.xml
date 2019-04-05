@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document><pre><code># ----------------------------------------
+# tools.html
+# ----------------------------------------
+page = page.next
+page.applyTemplate(template)  
+page.name = 'Skateboard'
+page.url = 'tools/skateboard.html'
+content = page.select('Content')
+box = content.newBanner()
+</code></pre>
+
+<h1>Tools: Skateboard</h1>
+<pre><code>box = content.newIntroduction()
+</code></pre>
+
+<h1>Skateboard. RoboFont. Fonttools. Scripts. Code.</h1>
+<pre><code>section = content.newSection()
+box = section.newMain()
+</code></pre>
+
+<h1><a href="http://superpolator.com/pages/skateboard.html">Skateboard</a></h1></document>

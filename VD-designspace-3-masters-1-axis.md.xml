@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document><pre><code># ----------------------------------------
+# designspace.html
+# ----------------------------------------
+page = page.next
+page.applyTemplate(template)  
+page.name = '3 masters 1 axis'
+page.url = 'Design space/3-masters-1-axis.html'
+content = page.select('Content')
+box = content.newBanner()
+</code></pre>
+
+<h1>Design space: 3 masters 1 axis</h1>
+<pre><code>box = content.newIntroduction()
+</code></pre>
+
+<h1>Single axis. Regular and min/max masters on both sides</h1>
+<pre><code>section = content.newSection()
+box = section.newMain()
+</code></pre>
+
+<h2>Usage</h2>
+<h3>Single width<sup>wdth</sup> axis with 3 masters</h3>
+<h3>Single weight<sup>wght</sup> axis with 3 masters</h3>
+<h3>Single grade<sup>GRAD</sup> axis with 3 masters</h3></document>

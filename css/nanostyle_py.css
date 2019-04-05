@@ -27,11 +27,11 @@ p strong, li strong {
 }
 a {
     text-decoration: none;
-    color: #45454A;
+    color: #454545;
 }
 a:hover {
     text-decoration: none;
-    color: #F96302;
+    color: #0072C6;
     background-color: #FFFFFF;
 }
 ul {
@@ -138,16 +138,16 @@ h5 a:hover {
     font-size: 2em;
     font-family: 'Upgrade-Medium';
     letter-spacing: 0.015em;
-    color: #F96302;
+    color: #0072C6;
 }
 
 /* Rulers */
 
 .main hr {
-    border: 8px solid #787881;
+    border: 8px solid #787878;
 }
 .side hr {
-    border: 1px solid #787881;
+    border: 1px solid #787878;
 }
 
 /* Desktop navigation/menu */
@@ -217,7 +217,7 @@ li:hover a {
 
 li:hover li a:hover { 
     background-color: #E7E7E7; 
-    color: #787881;
+    color: #787878;
 }
 
 .main-navigation li ul.navmenu li { 
@@ -267,7 +267,7 @@ ul.navmenu:after {
     font-family: 'Upgrade-Medium', sans-serif;
 }
 .mobilemenu .button2 {
-    color: #F96302;
+    color: #0072C6;
     font-size: 2em;
     padding: 5px;
     font-family: 'Upgrade-MediumItalic', sans-serif;
@@ -340,10 +340,10 @@ ul.navmenu:after {
     font-family: 'Upgrade-Regular';
 }
 .slideside .textbox h1 a {
-    color: #F96302;
+    color: #0072C6;
 }
 .slideside .textbox h1 a:hover {
-    color: #642801;
+    color: #002E4F;
 }
 .slideside .textbox h2 {
     color: #E7E7E7;
@@ -360,7 +360,7 @@ ul.navmenu:after {
     font-family: 'Upgrade-Medium';
 }
 .slideside .textbox p {
-    color: #F3F3F4;
+    color: #F3F3F3;
     letter-spacing: 0.025em;
     font-size: 1em;
     line-height: 1.4em;
@@ -373,7 +373,7 @@ ul.navmenu:after {
 
 sup { /* Superior number <sup> by Upgrade OT-feature */
     top: 0em;
-    color: #1A1A1C;
+    color: #1A1A1A;
     font-size: inherit;
     vertical-align: inherit;
     -moz-font-feature-settings:"sups=1";
@@ -404,7 +404,7 @@ li sup { /* Superior Scale number in Menu */
     grid-template-columns: 2fr 1fr;
     column-gap: 10px;
     row-gap: 10px;
-    background-color: #DEDEE3;
+    background-color: #DEDEDE;
 }
 .mains {
     display: grid;
@@ -459,8 +459,8 @@ floating elements inside.*/
     height: 1em;
     width: 1em;
     font-size: 1.5em;
-    background-color: #F96302; /* Buttons in logo color */
-    color: #FEE8D9;
+    background-color: #0072C6; /* Buttons in logo color */
+    color: #D9EAF6;
 }
 
 
