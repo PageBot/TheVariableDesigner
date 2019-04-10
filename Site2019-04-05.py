@@ -50,7 +50,7 @@ class DDSTheme(IntoTheWoods):
         logo=TVD_LOGO,
     )
 
-theme = DDSTheme('light')
+theme = DDSTheme('normal')
 
 SITE_NAME = 'TheVariableDesigner' 
 LOGO_NAME = 'The Variable Designer'
@@ -61,14 +61,19 @@ MD_PATHS = [
     'VD-designspace-2-masters-1-axis.md',
     'VD-designspace-3-masters-1-axis.md',
     'VD-designspace-4-masters-2-axes.md',
+    'VD-designspace-4-masters-2-axes-mm.md',
     'VD-designspace-5-masters-2-axes.md',
     'VD-designspace-9-masters-2-axes.md',
     'VD-designspace-8-masters-3-axes-mm.md',
     'VD-designspace-27-masters-3-axes-do-not.md',
+    'VD-designspace-catalog-axes.md',
+    'VD-designspace-parametric-axes.md',
     'VD-designspace-unstructured-set.md',
     'VD-designspace-super-in-position.md',
     'VD-process.md',
     'VD-tools.md',
+    'VD-tools-robofont.md',
+    'VD-tools-fonttools.md',
     'VD-tools-skateboard.md',
     'VD-about.md',
 ]
@@ -149,7 +154,11 @@ def makeSite(styles, viewId):
     view = doc.view
     view.resourcePaths = ('css','fonts','images', 'code', 'js')
     view.jsUrls = (
-        URL_JQUERY, 
+        URL_JQUERY,
+        'https://d3js.org/d3.v4.min.js', 
+        #'https://d3js.org/d3.v3.min.js',
+        #'js/cola.min.js',
+        #'http://d3js.org/d3-selection-multi.v1.js',
         'js/jquery.bbslider.min.js',
         #URL_MEDIA, 
         #'js/sitemain.js', 

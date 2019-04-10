@@ -14,9 +14,16 @@ box = content.newBanner()
 <pre><code>box = content.newIntroduction()
 </code></pre>
 
-<h1>Skateboard. RoboFont. Fonttools. Scripts. Code.</h1>
+<h1>3D cube, with middle Regular as origin. Masters on all corners, all middle ribs and all <strong>min</strong> and <strong>max</strong> axis endpoints.</h1>
 <pre><code>section = content.newSection()
 box = section.newMain()
 </code></pre>
 
-<h1>Skateboard</h1></document>
+<h2>Usage examples</h2>
+<h3>Don’t do this, unless you have too much time at hand.</h3>
+<h3>Or if there is a real reason and possibility to automate the generating of masters from a core set of sources.</h3>
+<pre><code>from pagebot.elements.vf.designspacegraph import newDesignSpaceGraph
+path = 'resources/fonts/typetr/27-master-3-axis.designspace'
+path = 'code/27-masters-3-axes.json'
+box = newDesignSpaceGraph(parent=section, path=path, stroke=0, nodeStroke=1, labelSize=doc.rootStyle['labelSize'])
+</code></pre></document>

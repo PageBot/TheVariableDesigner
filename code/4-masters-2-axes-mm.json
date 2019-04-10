@@ -1,0 +1,14 @@
+{
+  "nodes": [
+    {"id": "Bold", "group": 2},
+    {"id": "Regular", "group": 1},
+    {"id": "Condensed", "group": 2},
+    {"id": "Bold-Condensed", "group": 3}
+  ],
+  "links": [
+    {"source": "Regular", "target": "Bold", "value": 3},
+    {"source": "Regular", "target": "Condensed", "value": 3},
+    {"source": "Bold", "target": "Bold-Condensed", "value": 3},
+    {"source": "Condensed", "target": "Bold-Condensed", "value": 3}
+  ]
+}

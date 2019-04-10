@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document><pre><code># ----------------------------------------
+# tools.html
+# ----------------------------------------
+page = page.next
+page.applyTemplate(template)  
+page.name = 'Robofont'
+page.url = 'tools/robofont.html'
+content = page.select('Content')
+box = content.newBanner()
+</code></pre>
+
+<h1>Tools: RoboFont</h1>
+<pre><code>box = content.newIntroduction()
+</code></pre>
+
+<h1>RoboFont. Scripts. Code.</h1>
+<pre><code>section = content.newSection()
+box = section.newMain()
+</code></pre>
+
+<h1><a href="https://robofont.com">RoboFont</a></h1></document>

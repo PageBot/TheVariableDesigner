@@ -10,13 +10,19 @@ content = page.select('Content')
 box = content.newBanner()
 </code></pre>
 
-<h1>9 masters, 2 axis</h1>
+<h1>Design space: 8 masters, 3 axes</h1>
 <pre><code>box = content.newIntroduction()
 </code></pre>
 
-<h1>Skateboard. RoboFont. Fonttools. Scripts. Code.</h1>
+<h1>Three axes, traditional “Multiple Master” cube. No origin in the middle, so pick one. <strong>min</strong> and <strong>max</strong> masters corners of the cube.</h1>
 <pre><code>section = content.newSection()
 box = section.newMain()
 </code></pre>
 
-<h1>Skateboard</h1></document>
+<h2>Usage examples</h2>
+<h3>Weight <strong>[wght]</strong> axis with 2 masters in combination with a width <strong>[wdth]</strong> axis with 2 masters and all doubled for optical size <strong>[opsz]</strong>.</h3>
+<pre><code>from pagebot.elements.vf.designspacegraph import newDesignSpaceGraph
+path = 'resources/fonts/typetr/8-master-3-axes.designspace'
+path = 'code/8-masters-3-axes.json'
+box = newDesignSpaceGraph(parent=section, path=path, stroke=0, nodeStroke=1, labelSize=doc.rootStyle['labelSize'])
+</code></pre></document>

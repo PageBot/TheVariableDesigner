@@ -1,4 +1,4 @@
-Enclosed code from other contributers is (as in e.g. the directory "docs/fonts" is marked with the original LICENSE.md files.
+Enclosed code from other contributers is (as in e.g. the directories "scripts", "fonts", "docs/fonts" and "resources/ufo" is marked with the original LICENSE.md files.
 
 For the rest the following MIT license applies.
 

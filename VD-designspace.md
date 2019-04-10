@@ -16,11 +16,11 @@ box = content.newBanner()
 box = content.newIntroduction()
 ~~~
 
-# Skateboard. RoboFont. Fonttools. Scripts. Code.
+# Design space defines the multi-dimensional interpolating area, including all possible instance of a Variable Font.
 
 ~~~
 section = content.newSection()
 box = section.newMain()
 ~~~
 
-# Skateboard
+# Design of design spaces

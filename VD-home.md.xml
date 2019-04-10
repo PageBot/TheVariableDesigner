@@ -22,6 +22,11 @@
 #&lt;tab/&gt;&lt;tab/&gt;Footer
 #
 # ----------------------------------------
+# Some general styles
+from pagebot.toolbox.units import pt
+doc.rootStyle['labelSize'] = pt(14)
+
+# ----------------------------------------
 # index.html
 # ----------------------------------------
 page.name = 'Home'
@@ -30,7 +35,7 @@ content = page.select('Content')
 box = content.newBanner()
 </code></pre>
 
-<h1>Practical guide for Variable Font design strategies.</h1>
+<h1>Practical guide for Variable Font design strategies</h1>
 <pre><code>box = content.newIntroduction()
 </code></pre>
 
@@ -41,20 +46,11 @@ box = section.newMain()
 </code></pre>
 
 <h1>Design paths for Variable Fonts</h1>
-<h2>Traditional</h2>
+<h2>Variable Fonts</h2>
 <ul>
-<li><a href="design_space-2-masters-1-axis.html">“Simple” 2 masters 1 axis</a></li>
-<li><a href="design_space-3-masters-1-axis.html">“Simple” 3 masters 1 axis</a></li>
 <li><a href="design_space-4-masters-2-axis.html">4 masters 2 axes</a></li>
 <li><a href="design_space-5-masters-2-axis.html">5 masters 2 axes</a></li>
 <li><a href="design_space-9-masters-2-axis.html">9 masters 2 axes</a></li>
-<li>8 masters 3 axes (Traditional Multiple Master)</li>
-<li>27-masters-3-axes (How not to do it)</li>
-<li>16 masters 4 axes (Traditional Multiple Master)</li>
-<li>Unstructured set of existing masters as start</li>
-</ul>
-<h2>Variable Fonts</h2>
-<ul>
 <li>Super-in-position</li>
 <li>Supporting masters</li>
 <li><a href="design_space-parametric-axes.html">Parametric axes</a></li>
@@ -63,8 +59,19 @@ box = section.newMain()
 <li>Independent axes</li>
 <li>Delta-absorbers</li>
 <li>Inline-axis masters</li>
-<li>OT-feature spaces</li>
+<li>Glyph replacement by OT-feature rules</li>
 <li>Extrapolated axes</li>
+</ul>
+<h2>Traditional</h2>
+<ul>
+<li><a href="design_space-2-masters-1-axis.html">“Simple” 2 masters 1 axis</a></li>
+<li><a href="design_space-3-masters-1-axis.html">“Simple” 3 masters 1 axis</a></li>
+<li><a href="design_space-4-masters-2-axis-mm.html">4 masters 2 axes (Traditional Multiple Master)</a></li>
+<li>8 masters 3 axes (Traditional Multiple Master)</li>
+<li>27-masters-3-axes and beyond (How not to do it)</li>
+<li>16 masters 4 axes (Traditional Multiple Master)</li>
+<li>32 masters 5 axes and beyond (Traditional Multiple Master)</li>
+<li>Unstructured set of existing masters as start</li>
 </ul>
 <h1>Topology of the design space</h1>
 <h2>Axes</h2>
@@ -84,4 +91,5 @@ box = section.newMain()
 <h1>Tools</h1>
 <h2>Skateboard</h2>
 <h2>Fonttools</h2>
+<h2>RoboFont</h2>
 <h1>Contact</h1></document>

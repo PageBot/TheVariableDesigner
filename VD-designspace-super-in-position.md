@@ -16,11 +16,11 @@ box = content.newBanner()
 box = content.newIntroduction()
 ~~~
 
-# Skateboard. RoboFont. Fonttools. Scripts. Code.
+# ...
 
 ~~~
 section = content.newSection()
 box = section.newMain()
 ~~~
 
-# Skateboard
+# Super-in-position

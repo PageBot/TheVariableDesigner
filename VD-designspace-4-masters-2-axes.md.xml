@@ -14,9 +14,16 @@ box = content.newBanner()
 <pre><code>box = content.newIntroduction()
 </code></pre>
 
-<h1>Skateboard. RoboFont. Fonttools. Scripts. Code.</h1>
+<h1>Two axes. Regular as origin, <strong>min</strong> and <strong>max</strong> masters on both sides. One independent master on second axis.</h1>
 <pre><code>section = content.newSection()
 box = section.newMain()
 </code></pre>
 
-<h1>Skateboard</h1></document>
+<h2>Usage examples</h2>
+<h3>Weight <strong>[wght]</strong> axis with 3 masters in combination with a one-direction axis of independent local influence.</h3>
+<h3>Width <strong>[wdth]</strong> axis with 3 masters in combination with a one-direction axis of independent local influence.</h3>
+<pre><code>from pagebot.elements.vf.designspacegraph import newDesignSpaceGraph
+path = 'resources/fonts/typetr/4-master-2-axes.designspace'
+path = 'code/4-masters-2-axes.json'
+box = newDesignSpaceGraph(parent=section, path=path, stroke=0, nodeStroke=1, labelSize=doc.rootStyle['labelSize'])
+</code></pre></document>

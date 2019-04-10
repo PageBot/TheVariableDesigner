@@ -1,0 +1,29 @@
+{
+  "nodes": [
+    {"id": "Bold", "group": 2},
+    {"id": "Light", "group": 1},
+    {"id": "Wide", "group": 2},
+    {"id": "Condensed", "group": 2},
+
+    {"id": "Bold-Text", "group": 3},
+    {"id": "Light-Text", "group": 3},
+    {"id": "Wide-Text", "group": 3},
+    {"id": "Condensed-Text", "group": 3}
+  ],
+  "links": [
+    {"source": "Light", "target": "Bold", "value": 3},
+    {"source": "Light", "target": "Condensed", "value": 3},
+    {"source": "Wide", "target": "Condensed", "value": 3},
+    {"source": "Wide", "target": "Bold", "value": 3},
+
+    {"source": "Bold", "target": "Bold-Text", "value": 3},
+    {"source": "Light", "target": "Light-Text", "value": 3},
+    {"source": "Wide", "target": "Wide-Text", "value": 3},
+    {"source": "Condensed", "target": "Condensed-Text", "value": 3},
+
+    {"source": "Light-Text", "target": "Bold-Text", "value": 3},
+    {"source": "Light-Text", "target": "Condensed-Text", "value": 3},
+    {"source": "Wide-Text", "target": "Condensed-Text", "value": 3},
+    {"source": "Wide-Text", "target": "Bold-Text", "value": 3}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "nodes": [
+    {"id": "Bold", "group": 3},
+    {"id": "Regular", "group": 1},
+    {"id": "Light", "group": 3}
+  ],
+  "links": [
+    {"source": "Regular", "target": "Light", "value": 3},
+    {"source": "Regular", "target": "Bold", "value": 3}
+  ]
+}

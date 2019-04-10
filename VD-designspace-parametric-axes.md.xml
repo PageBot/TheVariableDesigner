@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document><pre><code># ----------------------------------------
+# designspace.html
+# ----------------------------------------
+page = page.next
+page.applyTemplate(template)  
+page.name = 'Parametric axes'
+page.url = 'Design space/parametric-axes.html'
+content = page.select('Content')
+box = content.newBanner()
+</code></pre>
+
+<h1>Design space: Parametric axes</h1>
+<pre><code>box = content.newIntroduction()
+</code></pre>
+
+<h1>...</h1>
+<pre><code>section = content.newSection()
+box = section.newMain()
+</code></pre>
+
+<h1>Parametric axes</h1></document>

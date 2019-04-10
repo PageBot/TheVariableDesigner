@@ -10,16 +10,22 @@ content = page.select('Content')
 box = content.newBanner()
 </code></pre>
 
-<h1>3 masters, 1 axis</h1>
+<h1>Design space: 2 masters, 1 axis</h1>
 <pre><code>box = content.newIntroduction()
 </code></pre>
 
-<h1>Skateboard. RoboFont. Fonttools. Scripts. Code.</h1>
+<h1>Single axis with 2 masters. One of them must be origin. The other is <strong>min</strong> or <strong>max</strong>.</h1>
 <pre><code>section = content.newSection()
 box = section.newMain()
 </code></pre>
 
 <h2>Usage examples</h2>
-<h3>Single weight<sup>wght</sup> axis with Regular-Bold</h3>
-<h3>Single weight<sup>wght</sup> axis with Light-Regular</h3>
-<h3>Single optical size<sup>opsz</sup> axis with 2 masters</h3></document>
+<h3>Single weight <strong>[wght]</strong> axis interpolating Regular to Bold</h3>
+<h3>Single weight <strong>[wght]</strong> axis interpolating Light to Regular</h3>
+<h3>Single width <strong>[wght]</strong> axis interpolating Regular to Condensed</h3>
+<h3>Single optical size <strong>[opsz]</strong> axis interpolating Regular-Display to Regular-Text</h3>
+<pre><code>from pagebot.elements.vf.designspacegraph import newDesignSpaceGraph
+path = 'resources/fonts/typetr/2-master-1-axis.designspace'
+path = 'code/2-masters-1-axis.json'
+box = newDesignSpaceGraph(parent=section, path=path, stroke=0, nodeStroke=1, labelSize=doc.rootStyle['labelSize'])
+</code></pre></document>

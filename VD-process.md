@@ -16,11 +16,29 @@ box = content.newBanner()
 box = content.newIntroduction()
 ~~~
 
-# Skateboard. RoboFont. Fonttools. Scripts. Code.
+# Sketching and iterating the design space. 
 
 ~~~
 section = content.newSection()
 box = section.newMain()
 ~~~
 
-# Skateboard
+## Sketching the design space
+
+## Exploding dimensions
+
+## Keep it small, test modular, hide unused axes
+
+## MutatorMath vs. Fonttools interpolation
+
+## Managing inflections points
+
+## Instances
+
+## Features
+
+## Spacing, groups and kerning
+
+## Scripting production
+
+## Do’s and don’ts

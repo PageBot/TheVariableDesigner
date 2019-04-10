@@ -22,6 +22,11 @@ doc.title = 'The&nbsp;Variable&nbsp;Designer'
 #		Footer
 #
 # ----------------------------------------
+# Some general styles
+from pagebot.toolbox.units import pt
+doc.rootStyle['labelSize'] = pt(14)
+
+# ----------------------------------------
 # index.html
 # ----------------------------------------
 page.name = 'Home'
@@ -30,7 +35,7 @@ content = page.select('Content')
 box = content.newBanner()
 ~~~
 
-# Practical guide for Variable Font design strategies.
+# Practical guide for Variable Font design strategies
 
 ~~~
 box = content.newIntroduction()
@@ -46,20 +51,11 @@ box = section.newMain()
 
 # Design paths for Variable Fonts
 
-## Traditional
+## Variable Fonts
 
-* [“Simple” 2 masters 1 axis](design_space-2-masters-1-axis.html)
-* [“Simple” 3 masters 1 axis](design_space-3-masters-1-axis.html)
 * [4 masters 2 axes](design_space-4-masters-2-axis.html)
 * [5 masters 2 axes](design_space-5-masters-2-axis.html)
 * [9 masters 2 axes](design_space-9-masters-2-axis.html)
-* 8 masters 3 axes (Traditional Multiple Master)
-* 27-masters-3-axes (How not to do it)
-* 16 masters 4 axes (Traditional Multiple Master)
-* Unstructured set of existing masters as start
-
-## Variable Fonts
-
 * Super-in-position
 * Supporting masters
 * [Parametric axes](design_space-parametric-axes.html)
@@ -68,8 +64,20 @@ box = section.newMain()
 * Independent axes
 * Delta-absorbers
 * Inline-axis masters
-* OT-feature spaces
+* Glyph replacement by OT-feature rules
 * Extrapolated axes
+
+## Traditional
+
+* [“Simple” 2 masters 1 axis](design_space-2-masters-1-axis.html)
+* [“Simple” 3 masters 1 axis](design_space-3-masters-1-axis.html)
+* [4 masters 2 axes (Traditional Multiple Master)](design_space-4-masters-2-axis-mm.html)
+* 8 masters 3 axes (Traditional Multiple Master)
+* 27-masters-3-axes and beyond (How not to do it)
+* 16 masters 4 axes (Traditional Multiple Master)
+* 32 masters 5 axes and beyond (Traditional Multiple Master)
+* Unstructured set of existing masters as start
+
 
 # Topology of the design space
 
@@ -106,5 +114,7 @@ box = section.newMain()
 ## Skateboard
 
 ## Fonttools
+
+## RoboFont
 
 # Contact

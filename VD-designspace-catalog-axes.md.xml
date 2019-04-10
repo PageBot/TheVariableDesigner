@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document><pre><code># ----------------------------------------
+# designspace.html
+# ----------------------------------------
+page = page.next
+page.applyTemplate(template)  
+page.name = 'Catalog axes'
+page.url = 'Design space/catalog-axes.html'
+content = page.select('Content')
+box = content.newBanner()
+</code></pre>
+
+<h1>Design space: Catalog axes</h1>
+<pre><code>box = content.newIntroduction()
+</code></pre>
+
+<h1>2 axes with 3 neighbouring design spaces</h1>
+<pre><code>section = content.newSection()
+box = section.newMain()
+</code></pre>
+
+<h2>Usage examples</h2>
+<h3>Weight <strong>[wght]</strong> axis and Width <strong>[wdth]</strong> axis on cascading design spaces.</h3>
+<pre><code>from pagebot.elements.vf.designspacegraph import newDesignSpaceGraph
+path = 'resources/fonts/typetr/9-master-2-axis.designspace'
+path = 'code/12-masters-2-axes-2-catalog.json'
+box = newDesignSpaceGraph(parent=section, path=path, stroke=0, nodeStroke=1, labelSize=doc.rootStyle['labelSize'])
+</code></pre></document>

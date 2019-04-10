@@ -14,9 +14,18 @@ box = content.newBanner()
 <pre><code>box = content.newIntroduction()
 </code></pre>
 
-<h1>Skateboard. RoboFont. Fonttools. Scripts. Code.</h1>
+<h1>Sketching and iterating the design space.</h1>
 <pre><code>section = content.newSection()
 box = section.newMain()
 </code></pre>
 
-<h1>Skateboard</h1></document>
+<h2>Sketching the design space</h2>
+<h2>Exploding dimensions</h2>
+<h2>Keep it small, test modular, hide unused axes</h2>
+<h2>MutatorMath vs. Fonttools interpolation</h2>
+<h2>Managing inflections points</h2>
+<h2>Instances</h2>
+<h2>Features</h2>
+<h2>Spacing, groups and kerning</h2>
+<h2>Scripting production</h2>
+<h2>Do’s and don’ts</h2></document>

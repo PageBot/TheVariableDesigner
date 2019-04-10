@@ -50,7 +50,7 @@ p em {
 }
 p strong, li strong {
     font-weight: normal;
-    font-family: 'Upgrade-Semibold';    
+    font-family: 'Upgrade-Medium';    
 }
 a {
     text-decoration: none;
@@ -81,7 +81,7 @@ h5 {font-size: 1em; line-height: 1.2em;}
 p {font-size: 1em; line-height: 1.4em;}
 
 h1 {
-    font-family: 'Upgrade-Semibold', sans-serif;
+    font-family: 'Upgrade-Medium', sans-serif;
     margin: 0;
     color: #%(h1.color)s;
 }
@@ -158,11 +158,11 @@ h5 a:hover {
 /* Logo */
 .logo {
     float: left;
-    width: 30%%;
+    width: 50%%;
     padding: 0.5em 0 0 1em;
 }
 .logo h1 {
-    font-size: 2em;
+    font-size: 1.6em;
     font-family: 'Upgrade-Medium';
     letter-spacing: 0.015em;
     color: #%(logo.color)s;
@@ -225,7 +225,7 @@ ul.navmenu li a {
 
 ul.navmenu li a:hover { 
     color: #ccc;
-    background-color: #%(menu.hover)s;
+    background-color: #%(menu.bghover)s;
 }
 
 li:hover ul.navmenu {

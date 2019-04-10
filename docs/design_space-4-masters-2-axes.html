@@ -8,6 +8,46 @@
 <!-- Mobile viewport -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
 
+		<style>
+
+.links line {
+  stroke: #000000;
+  stroke-opacity: 1;
+  stroke-width: 1px;
+}
+
+.nodes circle {
+  stroke: #000000;
+  stroke-opacity: 1;
+  stroke-width: 1px;
+}
+
+text {
+  font-family: inherit;
+  font-size: 14px;
+  color: #Color(r=0, g=0, b=0);
+}
+        
+.links line {
+  stroke: #000000;
+  stroke-opacity: 1;
+  stroke-width: 1px;
+}
+
+.nodes circle {
+  stroke: #000000;
+  stroke-opacity: 1;
+  stroke-width: 1px;
+}
+
+text {
+  font-family: inherit;
+  font-size: 14px;
+  color: #Color(r=0, g=0, b=0);
+}
+        
+		</style>
+
 		<link rel="stylesheet" href="css/jquery.bbslider.css" type="text/css" media="all"/>
 
 
@@ -28,11 +68,11 @@
 	<body>
 <!-- Start Wrapper.wrapper
  --><div id="Wrapper" class="wrapper clearfix">
-<!-- Start 8d60b3ed0eea.header
+<!-- Start 8d6b0ccf77be.header
  -->
-		<header id="8d60b3ed0eea" class="header">
-<!-- Start 8d60b3ed6b9c.logo
- --><div id="8d60b3ed6b9c" class="logo clearfix">
+		<header id="8d6b0ccf77be" class="header">
+<!-- Start 8d6b0ccf82f3.logo
+ --><div id="8d6b0ccf82f3" class="logo clearfix">
 <a href="index.html">
 <h1>
 <div class="textbox">
@@ -41,14 +81,14 @@ The Variable Designer</div>
 
 </a>
 </div>
-<!-- End 8d60b3ed6b9c.logo
- --><!-- Start 8d60b3edf95b.burgerbutton
- --><div id="8d60b3edf95b" class="burgerbutton clearfix">
+<!-- End 8d6b0ccf82f3.logo
+ --><!-- Start 8d6b0ccfbf6d.burgerbutton
+ --><div id="8d6b0ccfbf6d" class="burgerbutton clearfix">
 <h1 onclick="toggleMobileMenu('MobileMenu')">
 ☰</h1>
 
 </div>
-<!-- End 8d60b3edf95b.burgerbutton
+<!-- End 8d6b0ccfbf6d.burgerbutton
  --><!-- Start Navigation.navigation --><nav id="Navigation" class="navigation" role="navigation">
 <div class="navigation-menu">
 
@@ -75,6 +115,10 @@ Design space >></a>
 4 masters 2 axis</a>
 </li>
 <li>
+<a href="design_space-4-masters-2-axes-mm.html">
+4 masters 2 axis (MM)</a>
+</li>
+<li>
 <a href="design_space-5-masters-2-axis.html">
 5 masters 2 axis</a>
 </li>
@@ -89,6 +133,14 @@ Design space >></a>
 <li>
 <a href="design_space-27-masters-3-axes-do-not.html">
 27 masters 3 axes (Do not)</a>
+</li>
+<li>
+<a href="design_space-catalog-axes.html">
+Catalog axes</a>
+</li>
+<li>
+<a href="design_space-parametric-axes.html">
+Parametric axes</a>
 </li>
 <li>
 <a href="design_space-unstructured-master-set.html">
@@ -110,6 +162,14 @@ Process</a>
 Tools >></a>
 
 				<ul class="navmenu">
+<li>
+<a href="tools-robofont.html">
+Robofont</a>
+</li>
+<li>
+<a href="tools-fonttools.html">
+Fonttools</a>
+</li>
 <li>
 <a href="tools-skateboard.html">
 Skateboard</a>
@@ -148,6 +208,10 @@ Design space
 4 masters 2 axis
 			</button>
 
+			<button type="button" class="button2" onclick="location.href='design_space-4-masters-2-axes-mm.html';">
+4 masters 2 axis (MM)
+			</button>
+
 			<button type="button" class="button2" onclick="location.href='design_space-5-masters-2-axis.html';">
 5 masters 2 axis
 			</button>
@@ -162,6 +226,14 @@ Design space
 
 			<button type="button" class="button2" onclick="location.href='design_space-27-masters-3-axes-do-not.html';">
 27 masters 3 axes (Do not)
+			</button>
+
+			<button type="button" class="button2" onclick="location.href='design_space-catalog-axes.html';">
+Catalog axes
+			</button>
+
+			<button type="button" class="button2" onclick="location.href='design_space-parametric-axes.html';">
+Parametric axes
 			</button>
 
 			<button type="button" class="button2" onclick="location.href='design_space-unstructured-master-set.html';">
@@ -180,6 +252,14 @@ Process
 Tools
 			</button>
 
+			<button type="button" class="button2" onclick="location.href='tools-robofont.html';">
+Robofont
+			</button>
+
+			<button type="button" class="button2" onclick="location.href='tools-fonttools.html';">
+Fonttools
+			</button>
+
 			<button type="button" class="button2" onclick="location.href='tools-skateboard.html';">
 Skateboard
 			</button>
@@ -191,42 +271,53 @@ Contact
 <!-- End MobileMenu.mobilemenu
  -->
 		</header>
-<!-- End 8d60b3ed0eea.header
- --><!-- Start 8d60b3ecbe14.content
- --><div id="8d60b3ecbe14" class="content clearfix">
-<!-- Start 243154F8F810A7099E8.banner
- --><div id="243154F8F810A7099E8" class="banner clearfix">
+<!-- End 8d6b0ccf77be.header
+ --><!-- Start 8d6b0ccfc3a0.content
+ --><div id="8d6b0ccfc3a0" class="content clearfix">
+<!-- Start 2433FB163C10A514128.banner
+ --><div id="2433FB163C10A514128" class="banner clearfix">
 <div class="textbox">
 <h1>Design space: 4 masters, 2 axes</h1>
 </div>
 </div>
-<!-- End 243154F8F810A7099E8.banner
- --><!-- Start 243154F8F810A7207F0.introduction
- --><div id="243154F8F810A7207F0" class="introduction clearfix">
+<!-- End 2433FB163C10A514128.banner
+ --><!-- Start 2433FB163C10A57D8D0.introduction
+ --><div id="2433FB163C10A57D8D0" class="introduction clearfix">
 <div class="textbox">
-<h1>Skateboard. RoboFont. Fonttools. Scripts. Code.</h1>
+<h1>Two axes. Regular as origin, <strong>min</strong> and <strong>max</strong> masters on both sides. One independent master on second axis.</h1>
 </div>
 </div>
-<!-- End 243154F8F810A7207F0.introduction
- --><!-- Start 243154F8F810A765D30.section
- --><div id="243154F8F810A765D30" class="section clearfix">
-<!-- Start 243154F8F810A7652E8.main
- --><div id="243154F8F810A7652E8" class="main clearfix">
+<!-- End 2433FB163C10A57D8D0.introduction
+ --><!-- Start 2433FB163C10A5BBF28.section
+ --><div id="2433FB163C10A5BBF28" class="section clearfix">
+<!-- Start 2433FB163C10A5BFBA8.main
+ --><div id="2433FB163C10A5BFBA8" class="main clearfix">
 <div class="textbox">
-<h1>Skateboard</h1></div>
+<h2>Usage examples</h2>
+<h3>Weight <strong>[wght]</strong> axis with 3 masters in combination with a one-direction axis of independent local influence.</h3>
+<h3>Width <strong>[wdth]</strong> axis with 3 masters in combination with a one-direction axis of independent local influence.</h3>
 </div>
-<!-- End 243154F8F810A7652E8.main
- --></div>
-<!-- End 243154F8F810A765D30.section
- --></div>
-<!-- End 8d60b3ecbe14.content
- --><!-- Start 8d60b3ed5387.footer
- --><div id="8d60b3ed5387" class="footer clearfix">
 </div>
-<!-- End 8d60b3ed5387.footer
+<!-- End 2433FB163C10A5BFBA8.main
+ --><!-- Start DesignSpaceGraph.designspacegraph
+ --><div id="DesignSpaceGraph" class="designspacegraph clearfix" style="width:100%; height=400px; padding:auto">
+
+		<svg width="400" height="400">
+
+		</svg>
+</div>
+</div>
+<!-- End 2433FB163C10A5BBF28.section
+ --></div>
+<!-- End 8d6b0ccfc3a0.content
+ --><!-- Start 8d6b0ccf3ea3.footer
+ --><div id="8d6b0ccf3ea3" class="footer clearfix">
+</div>
+<!-- End 8d6b0ccf3ea3.footer
  --></div>
 <!-- End Wrapper.wrapper
  --><script charset="UTF-8" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script charset="UTF-8" type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
 <script charset="UTF-8" type="text/javascript" src="js/jquery.bbslider.min.js"></script>
 <script charset="UTF-8" type="text/javascript">
 function toggleMobileMenu(eId){
@@ -239,6 +330,273 @@ function toggleMobileMenu(eId){
         }
 
 
+
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+var color = d3.scaleOrdinal(d3.schemeCategory20);
+
+var simulation = d3.forceSimulation()
+    .force("link", d3.forceLink().id(function(d) { return d.id; }))
+    .force("charge", d3.forceManyBody()
+      .strength(-1000)
+      .distanceMin(67)
+      .distanceMax(133))
+    .force("center", d3.forceCenter(width / 2, height / 2));
+
+d3.json("code/2-masters-1-axis.json", function(error, graph) {
+  if (error) throw error;
+
+  var link = svg.append("g")
+      .attr("class", "links")
+    .selectAll("line")
+    .data(graph.links)
+    .enter().append("line")
+      .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+
+  var node = svg.append("g")
+      .attr("class", "nodes")
+    .selectAll("g")
+    .data(graph.nodes)
+    .enter().append("g")
+    
+  var circles = node.append("circle")
+      .attr("r", 10)
+      .attr("fill", function(d) { return color(d.group); }) /* TODO: Connect to PageBot theme colors */
+      .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended));
+
+  var lables = node.append("text")
+      .text(function(d) {
+        return d.id;
+      })
+      .attr('x', 13)
+      .attr('y', 3);
+
+  node.append("title")
+      .text(function(d) { return d.id; });
+
+  simulation
+      .nodes(graph.nodes)
+      .on("tick", ticked);
+
+  simulation.force("link")
+      .links(graph.links);
+
+  function ticked() {
+    link
+        .attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    node
+        .attr("transform", function(d) {
+          return "translate(" + d.x + "," + d.y + ")";
+        })
+  }
+});
+
+function dragstarted(d) {
+  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+  d.fx = d.x;
+  d.fy = d.y;
+}
+
+function dragged(d) {
+  d.fx = d3.event.x;
+  d.fy = d3.event.y;
+}
+
+function dragended(d) {
+  if (!d3.event.active) simulation.alphaTarget(0);
+  d.fx = null;
+  d.fy = null;
+}
+
+
+        
+
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+var color = d3.scaleOrdinal(d3.schemeCategory20);
+
+var simulation = d3.forceSimulation()
+    .force("link", d3.forceLink().id(function(d) { return d.id; }))
+    .force("charge", d3.forceManyBody()
+      .strength(-1000)
+      .distanceMin(67)
+      .distanceMax(133))
+    .force("center", d3.forceCenter(width / 2, height / 2));
+
+d3.json("code/3-masters-1-axis.json", function(error, graph) {
+  if (error) throw error;
+
+  var link = svg.append("g")
+      .attr("class", "links")
+    .selectAll("line")
+    .data(graph.links)
+    .enter().append("line")
+      .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+
+  var node = svg.append("g")
+      .attr("class", "nodes")
+    .selectAll("g")
+    .data(graph.nodes)
+    .enter().append("g")
+    
+  var circles = node.append("circle")
+      .attr("r", 10)
+      .attr("fill", function(d) { return color(d.group); }) /* TODO: Connect to PageBot theme colors */
+      .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended));
+
+  var lables = node.append("text")
+      .text(function(d) {
+        return d.id;
+      })
+      .attr('x', 13)
+      .attr('y', 3);
+
+  node.append("title")
+      .text(function(d) { return d.id; });
+
+  simulation
+      .nodes(graph.nodes)
+      .on("tick", ticked);
+
+  simulation.force("link")
+      .links(graph.links);
+
+  function ticked() {
+    link
+        .attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    node
+        .attr("transform", function(d) {
+          return "translate(" + d.x + "," + d.y + ")";
+        })
+  }
+});
+
+function dragstarted(d) {
+  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+  d.fx = d.x;
+  d.fy = d.y;
+}
+
+function dragged(d) {
+  d.fx = d3.event.x;
+  d.fy = d3.event.y;
+}
+
+function dragended(d) {
+  if (!d3.event.active) simulation.alphaTarget(0);
+  d.fx = null;
+  d.fy = null;
+}
+
+
+        
+
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+var color = d3.scaleOrdinal(d3.schemeCategory20);
+
+var simulation = d3.forceSimulation()
+    .force("link", d3.forceLink().id(function(d) { return d.id; }))
+    .force("charge", d3.forceManyBody()
+      .strength(-1000)
+      .distanceMin(67)
+      .distanceMax(133))
+    .force("center", d3.forceCenter(width / 2, height / 2));
+
+d3.json("code/4-masters-2-axes.json", function(error, graph) {
+  if (error) throw error;
+
+  var link = svg.append("g")
+      .attr("class", "links")
+    .selectAll("line")
+    .data(graph.links)
+    .enter().append("line")
+      .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+
+  var node = svg.append("g")
+      .attr("class", "nodes")
+    .selectAll("g")
+    .data(graph.nodes)
+    .enter().append("g")
+    
+  var circles = node.append("circle")
+      .attr("r", 10)
+      .attr("fill", function(d) { return color(d.group); }) /* TODO: Connect to PageBot theme colors */
+      .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended));
+
+  var lables = node.append("text")
+      .text(function(d) {
+        return d.id;
+      })
+      .attr('x', 13)
+      .attr('y', 3);
+
+  node.append("title")
+      .text(function(d) { return d.id; });
+
+  simulation
+      .nodes(graph.nodes)
+      .on("tick", ticked);
+
+  simulation.force("link")
+      .links(graph.links);
+
+  function ticked() {
+    link
+        .attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    node
+        .attr("transform", function(d) {
+          return "translate(" + d.x + "," + d.y + ")";
+        })
+  }
+});
+
+function dragstarted(d) {
+  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+  d.fx = d.x;
+  d.fy = d.y;
+}
+
+function dragged(d) {
+  d.fx = d3.event.x;
+  d.fy = d3.event.y;
+}
+
+function dragended(d) {
+  if (!d3.event.active) simulation.alphaTarget(0);
+  d.fx = null;
+  d.fy = null;
+}
+
+
+        
 
 	</script>
 

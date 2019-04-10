@@ -1,0 +1,9 @@
+{
+  "nodes": [
+    {"id": "Regular", "group": 1},
+    {"id": "Bold", "group": 2}
+  ],
+  "links": [
+    {"source": "Regular", "target": "Bold", "value": 3}
+  ]
+}

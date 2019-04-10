@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {"id": "Regular", "group": 1},
+
+    {"id": "Bold", "group": 2},
+    {"id": "Light", "group": 2},
+    {"id": "Wide", "group": 2},
+    {"id": "Condensed", "group": 2},
+    {"id": "Text", "group": 2},
+    {"id": "Display", "group": 2},
+
+    {"id": "Bold-Text", "group": 2},
+    {"id": "Light-Text", "group": 2},
+    {"id": "Wide-Text", "group": 2},
+    {"id": "Condensed-Text", "group": 2},
+
+    {"id": "Bold-Display", "group": 2},
+    {"id": "Light-Display", "group": 2},
+    {"id": "Wide-Display", "group": 2},
+    {"id": "Condensed-Display", "group": 2},
+
+    {"id": "Bold-Wide", "group": 2},
+    {"id": "Light-Wide", "group": 2},
+    {"id": "Bold-Condensed", "group": 2},
+    {"id": "Light-Condensed", "group": 2},
+
+    {"id": "Bold-Wide-Text", "group": 3},
+    {"id": "Light-Wide-Text", "group": 3},
+    {"id": "Bold-Wide-Display", "group": 3},
+    {"id": "Light-Wide-Display", "group": 3},
+    {"id": "Bold-Consensed-Text", "group": 3},
+    {"id": "Light-Consensed-Text", "group": 3},
+    {"id": "Bold-Consensed-Display", "group": 3},
+    {"id": "Light-Consensed-Display", "group": 3}
+  ],
+  "links": [
+    {"source": "Regular", "target": "Bold", "value": 3},
+    {"source": "Regular", "target": "Light", "value": 3},
+    {"source": "Regular", "target": "Wide", "value": 3},
+    {"source": "Regular", "target": "Condensed", "value": 3},
+    {"source": "Regular", "target": "Text", "value": 3},
+    {"source": "Regular", "target": "Display", "value": 3},
+
+    {"source": "Display", "target": "Wide-Display", "value": 3},
+    {"source": "Display", "target": "Condensed-Display", "value": 3},
+    {"source": "Display", "target": "Bold-Display", "value": 3},
+    {"source": "Display", "target": "Light-Display", "value": 3},
+    {"source": "Text", "target": "Wide-Text", "value": 3},
+    {"source": "Text", "target": "Condensed-Text", "value": 3},
+    {"source": "Text", "target": "Bold-Text", "value": 3},
+    {"source": "Text", "target": "Light-Text", "value": 3}
+
+
+  ]
+}

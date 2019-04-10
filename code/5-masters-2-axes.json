@@ -1,0 +1,15 @@
+{
+  "nodes": [
+    {"id": "Bold", "group": 3},
+    {"id": "Regular", "group": 1},
+    {"id": "Light", "group": 3},
+    {"id": "GRADmin", "group": 3},
+    {"id": "GRADmax", "group": 3}
+  ],
+  "links": [
+    {"source": "Regular", "target": "Light", "value": 3},
+    {"source": "Regular", "target": "Bold", "value": 3},
+    {"source": "Regular", "target": "GRADmin", "value": 3},
+    {"source": "Regular", "target": "GRADmax", "value": 3}
+  ]
+}

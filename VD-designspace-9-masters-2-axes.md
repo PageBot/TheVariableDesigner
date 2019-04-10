@@ -10,17 +10,26 @@ content = page.select('Content')
 box = content.newBanner()
 ~~~
 
-# 9 masters, 2 axis
+# Design space: 9 masters, 2 axes
 
 ~~~
 box = content.newIntroduction()
 ~~~
 
-# Skateboard. RoboFont. Fonttools. Scripts. Code.
+# 2 axes with full set of masters
 
 ~~~
 section = content.newSection()
 box = section.newMain()
 ~~~
 
-# Skateboard
+## Usage examples
+
+### Weight **[wght]** axis and Width **[wdth]** axis by a full set of 9 masters. 
+
+~~~
+from pagebot.elements.vf.designspacegraph import newDesignSpaceGraph
+path = 'resources/fonts/typetr/9-master-2-axis.designspace'
+path = 'code/9-masters-2-axes.json'
+box = newDesignSpaceGraph(parent=section, path=path, stroke=0, nodeStroke=1, labelSize=doc.rootStyle['labelSize'])
+~~~
