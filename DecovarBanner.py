@@ -104,8 +104,8 @@ for axisTag in sequenceAxes:
         style = dict(leading=em(1.4), fontSize=400, xTextAlign=RIGHT, textFill=color(1), 
             fill=blackColor, variableLocation=variableLocation)
         
-        af = AnimatedBannerFrame(sample, font, frameCnt, frameIndex, parent=page, padding=20, style=style, 
-            w=page.pw, h=page.ph, context=c)
+        af = AnimatedBannerFrame(sample, font, frameCnt, frameIndex, parent=page, padding=0, style=style, 
+            w=page.w, h=page.h, context=c)
         frameIndex += 1 # Prepare for the next frame
 
 

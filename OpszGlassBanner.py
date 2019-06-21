@@ -100,7 +100,7 @@ def makeAnimation(font, w, h, c, magnifySizeFactor):
                 variableLocation=variableLocation)
         
             af = AnimatedBannerFrame(sample, font, frameCnt, frameIndex, parent=page, style=style, 
-                w=page.pw, h=page.ph, context=c)
+                w=page.w, h=page.h, context=c)
             af.magnifySizeFactor = magnifySizeFactor
             frameIndex += 1 # Prepare for the next frame
 
