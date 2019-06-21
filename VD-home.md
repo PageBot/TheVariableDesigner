@@ -78,6 +78,13 @@ box = section.newMain()
 * 32 masters 5 axes and beyond (Traditional Multiple Master)
 * Unstructured set of existing masters as start
 
+# Example animations
+
+![](images/AmstelvarAlpha_OpticalSize.gif)
+![](images/RobotoDelta_OpticalSize.gif)
+![](images/Decovar_Decovar.gif)
+
+![](images/animatedA-blackwhite.gif)![](images/animatedA.gif)![](images/animatedInstanceA18.gif)![](images/animatedInstanceA19.gif)![](images/animatedInstanceA20.gif)![](images/animatedInstanceA21.gif)![](images/animatedInstanceA22.gif)![](images/animatedInstanceA23.gif)![](images/animatedInstanceA24.gif)![](images/animatedInstanceA25.gif)![](images/animatedInstanceA26.gif)![](images/animatedInstanceA27.gif)![](images/animatedInstanceA28.gif)![](images/animatedInstanceA29.gif)![](images/animatedInstanceA30.gif)![](images/animatedInstanceA31.gif)![](images/animatedInstanceA32.gif)![](images/animatedInstanceA33.gif)![](images/animatedInstanceA34.gif)![](images/animatedInstanceA35.gif)![](images/animatedInstanceA36.gif)![](images/animatedTypetrLogo1.gif)![](images/animatedTypetrLogo2.gif)![](images/animatedTypetrLogo3.gif)![](images/animatedTypetrLogo4.gif)![](images/animatedTypetrLogo5.gif)![](images/animatedTypetrLogo6.gif)![](images/animatedTypetrLogo8.gif)![](images/animatedTypetrLogo9.gif)![](images/animatedTypetrLogoBig.gif)![](images/BitcountLayerCatalogAnimation1360x1020.gif)![](images/bierCoverPages2-Chinese_1.gif)![](images/bierCoverPagesOutline2-Chinese_1.gif)![](images/bierCoverSlabPages2-Chinese_1.gif)![](images/habitCoverPagesSlab1-Chinese_1.gif)
 
 # Topology of the design space
 
